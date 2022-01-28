@@ -69,7 +69,7 @@ def main():
     if options.owner_tag:
         aws_owner = options.owner_tag
     else:
-        aws_owner = "SY"
+        aws_owner = "" ######## Insert your owner tag here
 
     # Evaluate the requested action
     eval_action(options.action, aws_region, aws_owner)
